@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+
+/* Reset some basic browser styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #F5F5F5;  /* Warm neutral light color */
+  color: #333333;             /* Neutral text color for easy reading */
+  font-family: 'Roboto', sans-serif;  /* Modern and clean font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Global text styles */
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;  /* Sophisticated serif for major headers */
+  color: #1A1A1A;  /* Deep color for titles */
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  color: #383838;  /* Muted gray for body text */
+  margin-bottom: 1rem;
+}
+
+/* Global links styling */
+a {
+  color: #60C7A9;  /* Trust-inducing green */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #F0D100;  /* Grounding yellow on hover */
+}
+
+/* Subtle fading transition for all interactive elements */
+button,
+a,
+input,
+textarea {
+  transition: all 0.3s ease;
+}
+
+button:hover,
+a:hover {
+  transform: scale(1.05);  /* Slight grow effect */
+}
+
+/* Main container styling */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
