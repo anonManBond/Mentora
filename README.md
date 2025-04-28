@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+🧠 Mentora — Your AI Mirror for Communication Clarity
+Mentora is a front-end React application that helps you write with greater self-awareness and emotional intelligence.
+By combining design psychology, tone analysis, and real-time feedback, it turns everyday writing into a mindful practice.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+⚙️ Why Mentora Matters
+In a world full of noise, the way we communicate matters more than ever.
+Mentora empowers individuals to write with intention — identifying emotional tone, potential biases, and subconscious signals in real time.
 
-## Available Scripts
+🛠️ Tech Stack
+⚛️ React — SPA architecture, reusable components
 
-In the project directory, you can run:
+🎨 Tailwind CSS — Clean, responsive, psychological design
 
-### `npm start`
+🌐 React Router — Seamless page navigation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔍 Future-ready AI — (Planned) NLP with Python or Node + OpenAI API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧪 No backend required — Lightweight prototype, 100% client-side
 
-### `npm test`
+🧱 Project Structure
+(To be documented — will outline folder hierarchy, components, hooks, etc.)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🎯 Core Features
+🧠 Emotional Tone Detection (Planned)
+Will identify emotionally charged words and prompt reflective alternatives.
 
-### `npm run build`
+🧩 Bias Detection (Planned)
+Future integrations will highlight cognitive biases and suggest more objective phrasing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎨 Subconscious UX
+Typography, colors, and spacing are designed to feel calm, safe, and focused — using psychological design cues.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🧪 Interactive Demo
+A simulated real-time tone analyzer powered by useState() that previews the future AI functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📸 Screenshots (Planned)
+Screenshots coming soon:
 
-### `npm run eject`
+Hero section
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Demo interaction
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Features list
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+About philosophy section
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧑‍💻 Getting Started Locally
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/anonManBond/Mentora.git
+cd Mentora
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the local dev server
+npm run dev
