@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import FeatureCard from '../components/FeatureCard';
 import CTASection from '../components/CTASection';
@@ -7,7 +6,6 @@ import CTASection from '../components/CTASection';
 const Home = () => {
   return (
     <div className="font-sans">
-      <Navbar />
       <HeroSection />
       <div className="container mx-auto py-12">
         <h2 className="text-4xl text-center font-semibold mb-8">Key Features of Mentora</h2>

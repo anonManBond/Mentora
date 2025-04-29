@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
 
 const Contact = () => {
   const [status, setStatus] = useState('');
@@ -11,7 +10,6 @@ const Contact = () => {
 
   return (
     <div className="font-sans">
-      <Navbar />
       <div className="container mx-auto py-12 px-6 max-w-lg">
         <h1 className="text-3xl font-semibold mb-4">Get in Touch</h1>
         <p className="mb-6">Have a suggestion or want to collaborate? Drop a message!</p>

@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 
 const HowItWorks = () => {
   return (
     <div className="font-sans">
-      <Navbar />
       <div className="container mx-auto py-12">
         <h1 className="text-4xl font-semibold text-center mb-6">How Mentora Works</h1>
         <p className="text-xl text-center mb-12">Mentora uses advanced AI and psychology principles to analyze your communication patterns and help you develop self-awareness. Here's how it works:</p>

@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 
 const About = () => {
   return (
     <div className="font-sans">
-      <Navbar />
       <div className="container mx-auto py-12 px-6 max-w-3xl">
         <h1 className="text-4xl font-semibold mb-6">About Mentora</h1>
         <p className="text-lg mb-6">

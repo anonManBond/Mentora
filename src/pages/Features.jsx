@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 
 const featuresList = [
   {
@@ -31,7 +30,6 @@ const featuresList = [
 const Features = () => {
   return (
     <div className="font-sans">
-      <Navbar />
       <div className="container mx-auto py-12 px-4">
         <h1 className="text-4xl font-semibold text-center mb-10">Mentora’s Advanced Features</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
